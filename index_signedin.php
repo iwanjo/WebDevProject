@@ -37,18 +37,19 @@ session_start();
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <img src="./images/logo.png" style="height: 40px">
-        <a class="navbar-brand" href="index.php">AfricaExplored</a>
+        <a class="navbar-brand" href="index_signedin.php">AfricaExplored</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> Menu
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+                <li class="nav-item active"><a href="index_signedin.php" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
-                <li class="nav-item cta"><a href="signup.php" class="nav-link"><span>Join Us</span></a></li>
+                <li class="nav-item cta"><a href="#" class="nav-link">Welcome <?php echo $_SESSION['name_user']; ?></a></li>
+                <li class="nav-item cta"><a href="signup.php" class="nav-link" name="logout-submit"><span>Sign Out</span></a></li>
 
             </ul>
         </div>
