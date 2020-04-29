@@ -64,50 +64,9 @@ session_start();
             <div class="col-md-9 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                 <h1 class="mb-4" data-scrollax="properties: { translateY: '30%'}"><strong>Explore <br></strong> the beauty of Africa</h1>
                 <p data-scrollax="properties: { translateY: '30%', opacity: 0 }">Immerse yourself in an ocean of culture and never lose your sense of wonder</p>
-                <p data-scrollax="properties: { translateY: '30%', opacity: 0 }">Immerse yourself in an ocean of culture and never lose your sense of wonder</p>
 
                 <div class="block-17 my-4">
-                    <form action="" method="post" class="d-block d-flex">
-                        <div class="fields d-block d-flex">
-                            <div class="textfield-search one-third">
-                                <input type="text" class="form-control" placeholder="Ex: food, service, hotel">
-                            </div>
-                            <div class="select-wrap one-third">
-                                <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-                                <select name="" id="" class="form-control" placeholder="Keyword search">
-                                    <option value="">Where</option>
-                                    <option value="">Djemaa el Fna, Morocco</option>
-                                    <option value="">Victoria Falls, Zambia and Zimbabwe</option>
-                                    <option value=""> Spitzkoppe, Namibia</option>
-                                    <option value="">Mount Mulanje, Malawi</option>
-                                    <option value="">Lower Zambezi, Zambia</option>
-                                    <option value="">Bazaruto Archipelago, Mozambique</option>
-                                    <option value="">Virunga National Park, Democratic Republic of Congo</option>
-                                    <option value="">Lake Malawi, Malawi</option>
-                                    <option value="">African Renaissance Monument, Senegal</option>
-                                    <option value="">Lake Retba (Lac Rose), Senegal</option>
-                                    <option value="">Avenue of the Baobabs, Madagascar</option>
-                                    <option value="">Lake Naivasha, Kenya</option>
-                                    <option value="">Maletsunyane Falls, Lesotho</option>
-                                    <option value="">Great Mosque of Djenné, Mali</option>
-                                    <option value="">Nabiyotum Crater, Kenya</option>
 
-
-                                </select>
-                            </div>
-                        </div>
-                        <div><a class="search-submit btn btn-primary" href="book.php">Book Now!</a></div>
-
-<!--                        <input type="submit" class="search-submit btn btn-primary" value="Search">-->
-                    </form>
-                </div>
-                <p>Or browse the highlights</p>
-                <p class="browse d-md-flex">
-                    <span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-fork"></i>Restaurant</a></span>
-                    <span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-hotel"></i>Hotel</a></span>
-                    <span class="d-flex justify-content-md-center align-items-md-center"><a href="#"><i class="flaticon-meeting-point"></i>Places</a></span>
-                    <span class="d-flex justify-content-md-center align-items-md-	center"><a href="#"><i class="flaticon-shopping-bag"></i>Shopping</a></span>
-                </p>
             </div>
         </div>
     </div>

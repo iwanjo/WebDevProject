@@ -97,6 +97,7 @@ session_start();
                                 </select>
                             </div>
                         </div>
+                        <div><a class="search-submit btn btn-primary" href="book.php">Book Now!</a></div>
 
 
                     </form>
