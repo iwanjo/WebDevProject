@@ -48,6 +48,7 @@ session_start();
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+<!--                <li class="nav-item"><a href="book.php" class="nav-link">Book Now</a></li>-->
                 <li class="nav-item cta"><a href="signup.php" class="nav-link"><span>Join Us</span></a></li>
 
             </ul>
@@ -62,7 +63,9 @@ session_start();
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
             <div class="col-md-9 ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
                 <h1 class="mb-4" data-scrollax="properties: { translateY: '30%'}"><strong>Explore <br></strong> the beauty of Africa</h1>
-                <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Immerse yourself in an ocean of culture and never lose your sense of wonder</p>
+                <p data-scrollax="properties: { translateY: '30%', opacity: 0 }">Immerse yourself in an ocean of culture and never lose your sense of wonder</p>
+                <p data-scrollax="properties: { translateY: '30%', opacity: 0 }">Immerse yourself in an ocean of culture and never lose your sense of wonder</p>
+
                 <div class="block-17 my-4">
                     <form action="" method="post" class="d-block d-flex">
                         <div class="fields d-block d-flex">
@@ -93,7 +96,9 @@ session_start();
                                 </select>
                             </div>
                         </div>
-                        <input type="submit" class="search-submit btn btn-primary" value="Search">
+                        <div><a class="search-submit btn btn-primary" href="book.php">Book Now!</a></div>
+
+<!--                        <input type="submit" class="search-submit btn btn-primary" value="Search">-->
                     </form>
                 </div>
                 <p>Or browse the highlights</p>

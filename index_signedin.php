@@ -48,7 +48,10 @@ session_start();
                 <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                 <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
                 <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="book.php" class="nav-link">Book Now</a></li>
                 <li class="nav-item cta"><a href="#" class="nav-link">Welcome <?php echo $_SESSION['name_user']; ?></a></li>
+
+
                 <li class="nav-item cta"><a href="signup.php" class="nav-link" name="logout-submit"><span>Sign Out</span></a></li>
 
             </ul>
@@ -94,7 +97,8 @@ session_start();
                                 </select>
                             </div>
                         </div>
-                        <input type="submit" class="search-submit btn btn-primary" value="Search">
+
+
                     </form>
                 </div>
                 <p>Or browse the highlights</p>
